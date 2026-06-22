@@ -3,7 +3,7 @@ import torch
 import torch.nn as nn
 import torch.optim as optim
 from torch.optim.lr_scheduler import ReduceLROnPlateau
-from NGCF import DGCLCMIWithGatedMechanism
+from CTGM import DGCLCMIWithGatedMechanism
 from dataloader import data_generator
 import warnings
 from time import time
